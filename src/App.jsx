@@ -4,6 +4,7 @@ import AddUser from './AddUser'
 import DisplayUser from './DisplayUser'
 import UpdateObjState from './UpdateObjState';
 import UpdateArrayState from './UpdateArrayState';
+import UseActionState from './UseActionState';
 
 function App() {
     const [user, setUser] = useState();
@@ -11,7 +12,9 @@ function App() {
         <div className="row">
             <div className="m-5 col">
 
-                <UpdateArrayState />
+                <UseActionState />
+
+                {/*<UpdateArrayState />*/}
 
                 {/*<UpdateObjState />*/}
 
